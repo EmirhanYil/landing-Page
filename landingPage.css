@@ -1,11 +1,15 @@
 
+body {
+  border-left: 70px solid black;
+  border-right: 70px solid black;
+}
 .topLineContainer {
   display: flex;
   gap: 18px;
   justify-content: space-between;
   font-size: 20;
   padding: 10px 250px;
-  background-color: #476072;
+  background-color: #0f2a3f;
   align-items: center;
 }
 .nav {
@@ -26,4 +30,51 @@ a {
   font-weight: bold;
   color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #0f2a3f;
+    padding: 60px 250px;
+    color: white;  
+    justify-content: space-between;
+}
+
+.paragraph {
+  width: 400px;
+  font-size: 18px;
+}
+.head {
+  font-size: 40px;
+  width: 400px;
+}
+
+h3 {
+  margin: 0;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+
+.image {
+  position: absolute;
+  display: flex;
+  align-self: flex-end;
+  
 }
