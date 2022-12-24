@@ -78,3 +78,35 @@ button {
   align-self: flex-end;
   
 }
+
+.random {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+.flex-container {
+  display: flex;
+  display: row;
+  justify-content: space-evenly;
+}
+.box {
+  border: 4px solid #3882f6;
+  border-radius: 20px;
+  height: 170px;
+  width: 170px;
+  margin-top: 30px;
+}
+
+.caption {
+  display: flex;
+  font-size: 20px;
+  text-align: center;
+  width: 170px;
+  color: grey;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
